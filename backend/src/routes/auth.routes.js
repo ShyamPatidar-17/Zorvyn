@@ -11,4 +11,4 @@ router.post('/register', register);
 router.get('/users',protect,getAllUsers)
 router.patch('/users/:id/status', protect, authorize('Admin'), toggleUserStatus);
 
-export default router;
+export default router;  
